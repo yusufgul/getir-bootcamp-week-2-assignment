@@ -1,6 +1,6 @@
 let http = require("http"); // Import http module
-const fs = require("fs"); // Import fs module
-var logFile = fs.createWriteStream("log.txt", { flags: "a" }); //create log file
+let fs = require("fs"); // Import fs module
+let logFile = fs.createWriteStream("log.txt", { flags: "a" }); //create log file
 let date; // Create a variable for timestamp
 
 // Declare a function to log requests into the log.txt
