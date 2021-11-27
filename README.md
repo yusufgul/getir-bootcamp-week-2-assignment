@@ -2,7 +2,7 @@ Http server is created by using Node.js.<br />
 Requests and request times are recorded to the log.txt file.<br />
 Server is active on port 8000.<br />
 <br />
-Valid urls are:
+Valid urls are:<br />
 http://localhost:8000/<br />
 http://localhost:8000/home<br />
 http://localhost:8000/homepage<br />
